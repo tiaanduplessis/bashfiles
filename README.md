@@ -9,7 +9,9 @@ $ git clone --depth=1 https://github.com/tiaanduplessis/bashfiles.git ~/.bashfil
 Source in `.bash_profile` e.g:
 
 ```
-source ~/.dotfiles/aliases
+source ~/.bashfiles/aliases
+source ~/.bashfiles/functions
+source ~/.bashfiles/prompt
 ```
 
 ## License
