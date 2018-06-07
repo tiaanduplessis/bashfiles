@@ -7,3 +7,5 @@ alias ....="cd ../../.."
 alias g="git"
 alias v="vim"
 alias gp="git push && git push --tags"
+
+alias ip="curl -s ipinfo.io/ip"
