@@ -10,3 +10,7 @@ alias v="vim"
 alias gp="git push && git push --tags"
 
 alias ip="curl -s ipinfo.io/ip"
+
+
+alias j10="export JAVA_HOME=`/usr/libexec/java_home -v 10`; java -version"
+alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
