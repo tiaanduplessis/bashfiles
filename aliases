@@ -5,12 +5,19 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 alias c="clear"
-alias g="git"
+
 alias v="vim"
-alias gp="git push && git push --tags"
-
-alias ip="curl -s ipinfo.io/ip"
 
 
+
+# Java
 alias j10="export JAVA_HOME=`/usr/libexec/java_home -v 10`; java -version"
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
+
+# Git
+alias g="git"
+alias gp="git push && git push --tags"
+alias gcm="git commit -m"
+alias gcam="git commit -a -m"
+alias gca="git commit --amend --no-edit"
+alias gl="git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit"
