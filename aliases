@@ -4,18 +4,19 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
+# Less keystrokes
 alias c="clear"
-
 alias v="vim"
+alias g="git"
 
-
+# Utils
+alias lf="find . -type f -exec ls -alh {} \; | sort -hr -k5 | head -n 25"
 
 # Java
 alias j10="export JAVA_HOME=`/usr/libexec/java_home -v 10`; java -version"
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
 
 # Git
-alias g="git"
 alias gp="git push && git push --tags"
 alias gcm="git commit -m"
 alias gcam="git commit -a -m"
