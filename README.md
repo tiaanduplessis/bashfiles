@@ -12,6 +12,8 @@ Source in `.bash_profile` e.g:
 source ~/.bashfiles/aliases
 source ~/.bashfiles/functions
 source ~/.bashfiles/prompt
+source ~/.bashfiles/config
+source ~/.bashfiles/mac
 ```
 
 ## License
