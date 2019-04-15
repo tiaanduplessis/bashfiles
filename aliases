@@ -14,7 +14,6 @@ alias j10="export JAVA_HOME=`/usr/libexec/java_home -v 10`; java -version"
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version"
 
 # Git
-alias gl="git pull"
 alias gp="git push && git push --tags"
 alias gcm="git commit -m"
 alias gac="git add . && git commit -m"
@@ -23,6 +22,8 @@ alias gca="git commit --amend --no-edit"
 alias gb="git branch"
 alias gc="git checkout"
 alias gcb="git checkout -b"
+alias gpull="git pull"
+alias gcommits="git shortlog -s -n --all --no-merges"
 
 # Other
 alias notes="cd ~/notes && code ."
