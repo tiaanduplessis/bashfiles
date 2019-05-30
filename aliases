@@ -24,6 +24,8 @@ alias gc="git checkout"
 alias gcb="git checkout -b"
 alias gpull="git pull"
 alias gcommits="git shortlog -s -n --all --no-merges"
+# https://www.devroom.io/2011/08/24/git-log-what-did-i-do-yesterday-exactly/
+alias timelog="git log --pretty=format:'%Cred%h%Creset - %C(yellow)%ae%Creset - %Cgreen%cd%Creset - %s%Creset' --abbrev-commit --date=iso"
 
 # Other
 alias notes="cd ~/notes && code ."
