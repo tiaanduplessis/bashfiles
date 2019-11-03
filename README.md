@@ -16,6 +16,10 @@ source ~/.bashfiles/config
 source ~/.bashfiles/mac
 ```
 
+## Others
+
+- [jaredpalmer/dotfiles](https://github.com/jaredpalmer/dotfiles)
+
 ## License
 
 MIT

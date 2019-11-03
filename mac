@@ -13,3 +13,10 @@ defaults write com.apple.screencapture location -string “$HOME/Desktop”
 
 # Display full POSIX path as Finder window title
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+
+
+# Set CLICOLOR for Ansi Colors in iTerm2
+export CLICOLOR=1
+
+# Set colors to match iTerm2 Terminal Colors
+export TERM=xterm-256color
