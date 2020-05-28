@@ -33,6 +33,7 @@ alias gh="chrome https://github.com"
 alias rm-dstore="find . -name '.DS_Store' -type f -delete"
 alias rickroll="curl -s -L http://bit.ly/10hA8iC | bash"
 alias please="sudo"
+alias nm-remove="find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' +"
 
 # Empty the Trash on all mounted volumes and the main HDD
 # Also, clear Apple’s System Logs to improve shell startup speed
